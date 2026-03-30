@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 120" role="img" aria-labelledby="logoTitle">
+  <title id="logoTitle">TOMOIMAGEM - Medicina Diagnostica</title>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e8ecf0"/>
+      <stop offset="100%" style="stop-color:#dfe5ec"/>
+    </linearGradient>
+    <linearGradient id="swoosh" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#002d5b"/>
+      <stop offset="100%" style="stop-color:#1a5a8a"/>
+    </linearGradient>
+  </defs>
+  <rect width="320" height="120" rx="10" fill="url(#bg)" stroke="rgba(0,45,91,0.25)" stroke-width="2" stroke-dasharray="6 4"/>
+  <path d="M24 32h72l-4 8H20l4-8z" fill="url(#swoosh)"/>
+  <text x="24" y="72" font-family="Montserrat, system-ui, sans-serif" font-size="22" font-weight="700" letter-spacing="0.02em" fill="#1a2f45">TOMOIMAGEM</text>
+  <text x="24" y="92" font-family="Montserrat, system-ui, sans-serif" font-size="9" font-weight="500" letter-spacing="0.12em" fill="#666666">MEDICINA DIAGNOSTICA</text>
+</svg>

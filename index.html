@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TOMOIMAGEM — Medicina Diagnóstica</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <noscript>
+      <style>
+        .reveal-section .reveal-stagger {
+          opacity: 1 !important;
+          transform: none !important;
+        }
+      </style>
+    </noscript>
+  </head>
+  <body>
+    <header class="site-header animate-header">
+      <nav class="nav" aria-label="Principal">
+        <a href="#agendar">Agendar exames</a>
+        <a href="#resultados">Resultados de exames</a>
+        <a href="#servicos">Serviços e exames</a>
+        <a href="#onde-estamos">Onde estamos</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="resultados" aria-labelledby="hero-heading">
+        <div class="hero__inner container">
+          <div class="hero__brand animate-hero-brand">
+            <img
+              class="hero__logo hero__logo--animated"
+              src="assets/img/tomoimagem-logo.jpg"
+              alt="TOMOIMAGEM — Medicina Diagnóstica"
+            />
+          </div>
+          <div class="hero__cta animate-hero-cta">
+            <p class="hero__text" id="hero-heading">
+              Acesse os <strong>resultados dos seus exames</strong> de forma rápida e fácil através do
+              nosso portal online
+            </p>
+            <a class="btn btn--primary" href="#">Acesse aqui</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="appointment section--muted reveal-section" id="agendar" aria-labelledby="appointment-heading">
+        <div class="appointment__inner container">
+          <h2 class="appointment__title reveal-stagger" id="appointment-heading" style="--stagger: 0">Agende seus exames</h2>
+          <div class="appointment__contacts reveal-stagger" style="--stagger: 1">
+            <div class="contact-block">
+              <span class="contact-block__icon" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M8 2v4M16 2v4M3 10h18M5 4h14a2 2 0 012 2v14a2 2 0 01-2 2H5a2 2 0 01-2-2V6a2 2 0 012-2z"
+                    stroke="currentColor"
+                    stroke-width="1.75"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </span>
+              <ul class="contact-block__phones">
+                <li><a href="tel:+554430171522">(44) 3017-1522</a></li>
+                <li><a href="tel:+554430171505">(44) 3017-1505</a></li>
+                <li><a href="tel:+554430171541">(44) 3017-1541</a></li>
+                <li><a href="tel:+5544998061000">(44) 99806-1000</a></li>
+              </ul>
+            </div>
+            <div class="contact-block contact-block--whatsapp">
+              <span class="contact-block__icon contact-block__icon--wa" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.435 9.884-9.881 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"
+                  />
+                </svg>
+              </span>
+              <div class="contact-block__wa-body">
+                <p class="contact-block__wa-label">Pelo WhatsApp</p>
+                <a class="pill-link" href="https://wa.me/+554498061000?text=Ol%C3%A1,%20gostaria%20de%20agendar%20um%20exame">Clique aqui</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="services reveal-section" id="servicos" aria-labelledby="services-heading">
+        <div class="container">
+          <header class="services__header">
+            <h2 class="services__title reveal-stagger" id="services-heading" style="--stagger: 0">Nossos serviços de Exames</h2>
+            <p class="services__subtitle reveal-stagger" style="--stagger: 1">
+              Temos equipamentos de última geração que garantem diagnósticos precisos.
+            </p>
+          </header>
+          <div class="services__carousel reveal-stagger" role="region" aria-label="Lista de serviços" style="--stagger: 2">
+            <div class="services__track">
+              <article class="service-card">
+                <div class="service-card__media">
+                  <img
+                    src="assets/img/raio-x.png"
+                    alt="Exame de raio-X digital"
+                    width="400"
+                    height="300"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </div>
+                <h3 class="service-card__label">RAIO-X DIGITAL</h3>
+              </article>
+              <article class="service-card">
+                <div class="service-card__media">
+                  <img
+                    src="assets/img/ultrassonografia.png"
+                    alt="Exame de ultrassonografia e Doppler"
+                    width="400"
+                    height="300"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </div>
+                <h3 class="service-card__label">ULTRASSONOGRAFIA / DOPPLER</h3>
+              </article>
+              <article class="service-card">
+                <div class="service-card__media">
+                  <img
+                    src="assets/img/ressonancia.png"
+                    alt="Exame de ressonância magnética"
+                    width="400"
+                    height="300"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </div>
+                <h3 class="service-card__label">RESSONÂNCIA MAGNÉTICA</h3>
+              </article>
+              <article class="service-card">
+                <div class="service-card__media">
+                  <img
+                    src="assets/img/mamografia.png"
+                    alt="Exame de mamografia digital"
+                    width="400"
+                    height="300"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </div>
+                <h3 class="service-card__label">MAMOGRAFIA DIGITAL</h3>
+              </article>
+              <article class="service-card">
+                <div class="service-card__media">
+                  <img
+                    src="assets/img/tomografia.webp"
+                    alt="Exame de tomografia computadorizada"
+                    width="400"
+                    height="300"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </div>
+                <h3 class="service-card__label">TOMOGRAFIA COMPUTADORIZADA</h3>
+              </article>
+              <article class="service-card">
+                <div class="service-card__media">
+                  <img
+                    src="assets/img/polisonografia.jpeg"
+                    alt="Exame de polissonografia"
+                    width="400"
+                    height="300"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </div>
+                <h3 class="service-card__label">POLISSONOGRAFIA</h3>
+              </article>
+              <article class="service-card">
+                <div class="service-card__media">
+                  <img
+                    src="assets/img/eletroneuromiografia.jpeg"
+                    alt="Exame de eletroneuromiografia"
+                    width="400"
+                    height="300"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </div>
+                <h3 class="service-card__label">ELETRONEUROMIOGRAFIA</h3>
+              </article>
+            </div>
+            <button type="button" class="carousel-nav" aria-label="Ver mais serviços">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M9 18l6-6-6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="about reveal-section" aria-labelledby="about-heading">
+        <div class="about__inner container">
+          <div class="about__text reveal-stagger" style="--stagger: 0">
+            <h2 class="about__title" id="about-heading">Sobre a TOMOIMAGEM</h2>
+            <p class="about__body">
+              Localizada em Campo Mourão, a TOMOIMAGEM Medicina Diagnóstica iniciou suas atividades em
+              2008, com o compromisso de oferecer excelência em imagens diagnósticas e na entrega de
+              resultados com agilidade e qualidade, sempre priorizando o cuidado com cada paciente.
+            </p>
+          </div>
+          <div class="about__media reveal-stagger" style="--stagger: 1">
+            <img
+              class="about__photo"
+              src="assets/img/tomoimagem-faxada.jpeg"
+              alt="Fachada da clínica TOMOIMAGEM em Campo Mourão"
+              width="1200"
+              height="800"
+              loading="lazy"
+              decoding="async"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="map-section reveal-section" id="onde-estamos" aria-labelledby="map-heading">
+        <div class="map-embed reveal-stagger" style="--stagger: 2">
+          <iframe
+            title="Mapa: TOMOIMAGEM — R. Araruna, 1053, Campo Mourão"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            allowfullscreen
+            src="https://maps.google.com/maps?q=R.+Araruna%2C+1053+-+Centro%2C+Campo+Mour%C3%A3o+-+PR%2C+87302-210&amp;output=embed"
+          ></iframe>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p class="site-footer__note">© TOMOIMAGEM Medicina Diagnóstica</p>
+      </div>
+    </footer>
+
+    <script>
+      (function () {
+        var track = document.querySelector(".services__track");
+        var btn = document.querySelector(".carousel-nav");
+        if (track && btn) {
+          btn.addEventListener("click", function () {
+            track.scrollBy({ left: 220, behavior: "smooth" });
+          });
+        }
+
+        var sections = document.querySelectorAll(".reveal-section");
+        if (!sections.length) return;
+
+        function markInView(el) {
+          el.classList.add("is-inview");
+        }
+
+        if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+          sections.forEach(markInView);
+          return;
+        }
+
+        var vh = window.innerHeight || document.documentElement.clientHeight;
+        sections.forEach(function (section) {
+          var r = section.getBoundingClientRect();
+          if (r.top < vh * 0.92 && r.bottom > vh * 0.08) {
+            markInView(section);
+          }
+        });
+
+        var observer = new IntersectionObserver(
+          function (entries) {
+            entries.forEach(function (entry) {
+              if (!entry.isIntersecting) return;
+              markInView(entry.target);
+              observer.unobserve(entry.target);
+            });
+          },
+          { root: null, rootMargin: "0px 0px -6% 0px", threshold: 0.06 }
+        );
+
+        sections.forEach(function (section) {
+          if (!section.classList.contains("is-inview")) {
+            observer.observe(section);
+          }
+        });
+      })();
+    </script>
+  </body>
+</html>
